@@ -1,0 +1,65 @@
+// Stylesheet
+html {
+   * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+   }
+}
+// Font
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,100;1,200&display=swap");
+
+// Mixins
+@mixin center-items--col {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+body {
+   width: 100%;
+   height: 100vh;
+   font-family: "Montserrat", sans-serif;
+   background: #202123;
+}
+h1 {
+   text-align: center;
+   margin: 20px;
+   color: white;
+}
+.wrapper {
+   max-width: 500px;
+   margin: auto;
+   height: auto;
+   border-radius: 15px;
+   background: #3c4044;
+
+   padding: 15px;
+   @include center-items--col();
+   .names-list {
+      @include center-items--col();
+      width: 100%;
+
+      .names-ul {
+         @include center-items--col();
+         width: 100%;
+         li {
+            list-style-type: none;
+            width: 100%;
+            height: 75px;
+            text-align: center;
+            @include center-items--col();
+            border-radius: 15px;
+            margin: 5px 0px;
+         }
+      }
+   }
+}
+
+.online {
+   background: rgb(118, 173, 118);
+}
+.offline {
+   background: rgb(212, 181, 181);
+}

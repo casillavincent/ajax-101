@@ -1,0 +1,26 @@
+[
+    {
+        "name" : "Vincent",
+        "online" : false
+    },
+    {
+        "name" : "Jason",
+        "online" : false
+    },
+    {
+        "name" : "Dennis",
+        "online" : true
+    },
+    {
+        "name" : "Neil",
+        "online" : false
+    },
+    {
+        "name" : "Brandon",
+        "online" : true
+    },
+    {
+        "name" : "Mary",
+        "online" : false
+    }
+]
