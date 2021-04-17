@@ -1,5 +1,5 @@
-# AJAX Basics
-This widget fetches data from JSON using AJAX and adds them to the HTML.
+# AJAX / XHR
+A small widget to help me understand AJAX, JSON and XHR.
 ```javascript
 /**
  * Small Ajax Project
