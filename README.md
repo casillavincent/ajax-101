@@ -1,5 +1,5 @@
 # AJAX / XHR
-A small widget to help me understand AJAX, JSON and XHR.
+A small project to help me understand AJAX, JSON and XHR.
 ```javascript
 /**
  * Small Ajax Project
